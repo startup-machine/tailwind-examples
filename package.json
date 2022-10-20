@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startup-machine/tailwind-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/startup-machine/tailwind-examples/issues"
+  },
+  "homepage": "https://github.com/startup-machine/tailwind-examples#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.0"
+  }
+}
