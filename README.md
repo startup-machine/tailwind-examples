@@ -1,1 +1,0 @@
-o objetivo do repositório é ser uma coleção de snippets úteis para criar páginas com tailwind.
