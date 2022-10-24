@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/js/index.js":
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/styles.scss */ \"./src/css/styles.scss\");\n\nvar textComponent = function textComponent() {\n  var elH1 = document.createElement('h1');\n  elH1.innerHTML = 'Olá mundo';\n  elH1.classList.add(\"title\");\n  return elH1;\n};\ndocument.body.appendChild(textComponent());\n\n//# sourceURL=webpack://tailwind-examples/./src/js/index.js?");
+
+/***/ }),
+
 /***/ "./src/css/styles.scss":
 /*!*****************************!*\
   !*** ./src/css/styles.scss ***!
@@ -17,16 +27,6 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://tailwind-examples/./src/css/styles.scss?");
-
-/***/ }),
-
-/***/ "./src/js/index.js":
-/*!*************************!*\
-  !*** ./src/js/index.js ***!
-  \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/styles.scss */ \"./src/css/styles.scss\");\n \n \n const textComponent = () => {\n     const elH1 = document.createElement('h1');\n     elH1.innerHTML = 'Olá mundo';\n     elH1.classList.add(\"title\");\n     return elH1;\n }\n\n document.body.appendChild(textComponent());\n\n//# sourceURL=webpack://tailwind-examples/./src/js/index.js?");
 
 /***/ })
 
