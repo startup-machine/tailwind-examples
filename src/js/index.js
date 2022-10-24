@@ -1,8 +1,7 @@
-const textComponent = () => {
-    const elh1 = document.createElement('h1');
-    elh1.innerHTML = 'Olá mundo';
+ const textComponent = () => {
+     const elH1 = createElement('h1');
+     elH1.innerHTML = 'Olá mundo';
+     return elH1;
+ }
 
-    return elh1;
-}
-
-document.body.appendChild(textComponent());
+ document.body.appendChild(textComponent());
